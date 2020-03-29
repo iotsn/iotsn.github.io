@@ -1,0 +1,245 @@
+article, aside, figure, figcaption, footer, header, hgroup, nav, section, summary {   
+  display: block;   
+}
+
+body {
+	margin: 0px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Verdana, sans-serif;
+	font-size: 13px;
+	background-color: #CCC;
+}
+
+
+.pageContainer {
+  background-color: white;
+  /*background-image: url('green_tile2.png');*/ 
+  background-repeat: repeat-x;
+
+  max-width: 855px;
+  min-width: 550px;
+
+  margin: 0px auto;    
+}
+
+
+.intro {
+  border-bottom: 1px rgb(193,215,46) solid;
+  padding: 40px 30px 10px 30px;
+}
+
+.bodyContainer {
+  padding: 5px 30px 30px 30px;
+}
+
+h1 {
+  margin-left: 0px;
+  margin-bottom: 0px;
+  font-size: 20px;
+}
+
+hgroup {
+  margin-top: 30px;
+  margin-left: 0px;
+  text-align: center;
+}
+hgroup h2 {
+  font-family: Kranky;
+  font-size:32px;
+  font-weight:normal;
+  margin-top:0px;
+}
+
+h2 {
+  margin-bottom: 0px;	
+  margin-top: 0px;
+  margin-left: 16px;
+  font-size: 16px;
+}
+
+.name {
+	font-size: 24px;
+	font-style: normal;
+	line-height: 1px;
+	color: #0000FF;
+	font-weight: bold;
+	text-indent: 4px;
+}
+
+.namecn {
+	font-family: "KaiTi";
+	font-size: 28px;
+	font-style: normal;
+	line-height: normal;
+	color: #0000FF;
+	font-weight: bold;
+}
+
+table {
+	border: 0 none;
+	margin: 0; padding: 0;
+}
+
+.tablePicture {
+  
+  background: white;
+  width: 230px;
+  border: 0 none;
+  border-left-style:none; border-left-width:medium; border-right-style:none; border-right-width:medium; border-top-style:solid; border-top-width:1px; border-bottom-style:none; border-bottom-width:medium; 
+}
+
+.tableDescription {
+	
+  background: white;
+  border: 0 none;  
+  border-left-style:none; border-left-width:medium; border-right-style:none; border-right-width:medium; border-top-style:solid; border-top-width:1px; border-bottom-style:none; border-bottom-width:medium; 
+}
+
+.tableNav {
+	border: 0 none;
+  border-left-style:solid; border-left-width:medium; 
+  border-right-style:solid; border-right-width:medium; 
+  border-top-style:solid; border-top-width:1px; 
+  border-bottom-width:1px; border-bottom-style:solid; 
+  text-align: center;
+  font-weight: bold;
+}
+
+
+.pubimg {
+  width: 200px;
+}
+
+.tableEmphasis a {
+  text-decoration: none;
+}
+
+.tableEmphasis a:hover {
+  text-decoration: underline;
+}
+
+.floatImage {
+  margin-top: 8px;
+  margin-right: 12px;
+  float:right;
+}
+
+.FloatFigure {
+  float: left;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-right: 20px;
+  margin-bottom: 0px;
+} 
+
+.FloatFigure figcaption {
+  max-width: 200px;
+  font-size: small;
+  font-style: italic;
+  margin-bottom: 5px;
+}
+
+.gallery {
+  margin: 0px 0px 0px 0px;
+  background: white;
+  padding: 10px;
+}
+
+.gallery img {
+  margin: 5px;
+  padding: 5px;
+  /* width: 175px; */
+  height: 100px;
+  border: solid 1px black;
+  -webkit-transition: all 1s ease 0s;
+  transition: all 1s ease 0s;
+  background: white;
+}
+
+.gallery img:hover {
+  -webkit-transform: scale(2.2) rotate(0deg);
+  transform: scale(2.2) rotate(0deg);
+}
+
+    
+.slickButton {
+  color: black;
+  font-weight: bold;
+  padding: 0px;
+  border: 0;
+  background: white;
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.slickButton:hover {
+  color: red;
+}    
+
+b {
+  font-weight: bold;
+}
+
+em {
+	font-weight: bold;
+	color: red;
+	font-style: normal;
+}
+
+strong {
+	
+}
+
+ul {
+	
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+footer {
+  text-align: center;
+  font-size: small;	
+}
+
+
+.LeadIn {
+  font-weight: bold;
+  font-size: large;
+  font-variant: small-caps;
+}
+
+
+.flexwrapper {
+	display: flex;
+}
+
+.paperdetail {
+	
+	
+	min-width: 90px;
+	
+}
+.paperdetail:last-child {
+	
+	
+	
+	          margin-left: auto;
+            
+}
+
+
+.fullpub {
+	font-size: medium;
+}
+
+
+
+ul {
+	list-style-type: square;
+	margin-left: -18px;
+}
+
+li {
+	padding-left: 0;
+}
+

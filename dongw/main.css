@@ -1,0 +1,95 @@
+.name {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 20px;
+	font-style: normal;
+	line-height: 1px;
+	color: #0000FF;
+	font-weight: bold;
+}
+
+
+.header {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 18px;
+	font-style: normal;
+	line-height: 1px;
+	color: #0000FF;
+	font-weight: bold;
+	text-indent: 4px;
+}
+
+.headerCN {
+	font-family: "KaiTi";
+	font-size: 20px;
+	font-style: normal;
+	line-height: normal;
+	color: #0000FF;
+	font-weight: bold;
+}
+
+.subheader {
+	font-family: "Times New Roman", Times, serif;
+	font-size: medium;
+	font-style: normal;
+	line-height: 0pt;
+	color: #000000;
+	font-weight: bold;
+	text-indent: 18pt;
+}
+
+
+.navigator {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 18px;
+	font-style: normal;
+	line-height: normal;
+	color: #000000;
+	font-weight: bold;
+	margin-left:-27px;
+}
+
+.normal {
+	font-family: "Times New Roman", Times, serif;
+	font-size: medium;
+	font-style: normal;
+	font-weight: normal;
+	color: #000000;
+}
+
+.bf {
+	font-family: "Times New Roman", Times, serif;
+	font-size: medium;
+	font-style: normal;
+	font-weight: bold;
+	color: #0000FF;
+}
+.small {
+	font-family: "Times New Roman", Times, serif;
+	font-size: smaller;
+}
+.bib {
+	font-family: "Times New Roman", Times, serif;
+}
+
+li 
+{ 
+	margin-left:20px;
+	list-style-type:disc;
+}
+
+li#indent
+{ 
+    margin-left:35px;
+	list-style-type:disc;
+}
+
+ul
+{
+	margin-left:-20px;
+}
+.normal ul strong .style6 {
+	font-weight: bold;
+}
+.red {
+	color: #F00;
+}
