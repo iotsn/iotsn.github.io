@@ -13,10 +13,10 @@
     var homePubIp=null;
     var clientIp=null;
 
-    homePubIp=x.query;
-    clientIp = returnCitySN["cip"];
+    homePubIp=x.query; // home public address
+    clientIp = returnCitySN["cip"]; // client IP
 
-    document.write(returnCitySN["cip"]+','+returnCitySN["cname"]+','+homePubIp);
+    //document.write(returnCitySN["cip"]+','+returnCitySN["cname"]+','+homePubIp);
 
     if (clientIp == homePubIp) {
       window.location.href = 'http://inhome.emnets.org/dongw/index.html';
