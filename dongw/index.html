@@ -123,6 +123,10 @@
   
   <li><b><a href="https://mp.weixin.qq.com/s/C-9ljT8BpRzcs6LerJWO8Q">实验室助力阿里云IoT工程师考试认证. </a></b></li>
   <li><span class="bf"><a href="http://emnets.org/dongw/misc/tinylink.html"><strong>《物联网快速开发平台》</strong></a>，中国计算机学会通讯</span></li>
+  <li>[2020.12] One paper is accepted to TOSN and two papers are accepted to IEEE INFOCOM 2021. </li>
+  <li>[2020.09] Our &quot;TinyEdge&quot; paper is accepted to <a href="http://acm-ieee-sec.org/2020/"><strong>IEEE/ACM Symposium on Edge Computing 2020</strong></a>. </li>
+  <li>[2020.08] Two papers &quot;TinyLink&quot; and &quot;JamCloak&quot; are accepted to <em>ACM Transactions on Sensor Networks</em>. </li>
+  <li>[2020.03] Our paper on edge-centric IoT programming (EdgeProg) is accepted to <a href="https://icdcs2020.sg/"><strong>IEEE ICDCS 2020</strong></a>.</li>
   <li>[2020.02] One paper is accepted to <em>IEEE Internet of Things Journal</em>.</li>
   <li>[2020.01] Our &quot;LinkLab&quot; paper is conditionally accepted to <a href="https://conferences.computer.org/iotdi/2020/"><em>ACM/IEEE IoTDI 2020</em></a>. </li>
   <li>[2020.01] One paper is conditionally accepted to <em><a href="http://ipsn.acm.org/2020/">ACM/IEEE IPSN 2020</a></em>.</li>
@@ -235,6 +239,92 @@ with more than 150 IoT devices.
   
 
   <ul>
+  
+    <li><em>[INFOCOM'21]</em> WIPROG: A WebAssembly-based Approach to
+Integrated IoT Programming
+    	
+      <article id="node-246493" class="node node-paper view-mode-schedule"><div class="required-fields group-text-wrapper field-group-html-element"><div class="flexwrapper"><div class="paperdetail">
+    <!-- the following two divs are necessary -->
+    <div class="required-fields group-schedule-accordion field-group-html-element">
+    <div class="field field-name-field-paper-description-long field-type-text-long field-label-hidden">
+    	      	
+    	  	    <p>Programming a complete IoT application usually
+requires separated programming for device, edge and/or cloud
+sides, which slows down the development process and makes the
+project hardly portable. Existing solutions tackle this problem
+by proposing a single coherent language while leaving two issues
+unsolved: efficient migration among the three sides and the
+platform dependency of the binaries.
+We propose WIPROG, an integrated approach to IoT application
+programming based on WebAssembly. WIPROG proposes
+an edge-centric programming approach that enables developers
+to write the IoT application as if it runs on the edge. This
+is achieved by the peripheral-accessing SDKs and annotations
+specifying the computation placement. WIPROG automatically
+processes the program to insert auxiliary code and then compile
+it to WebAssembly At runtime, WIPROG leverages dynamic code
+offloading with compact memory snapshotting to achieve efficient
+execution. WIPROG also provides interfaces for the customization
+of offloading policies. Results on real-world applications and computation
+benchmarks show that WIPROG achieves an average
+reduction by 18.7%~54.3% and 20.1%~57.6% in terms of energy
+consumption and execution time.</p>
+            
+            
+    </div></div></div> <!-- paperdetail -->
+        
+    <div class="paperdetail">
+      <img src="newimg/newpdf.png" width="16" height="16" /> <a href="xx.pdf"></a> &nbsp;
+     	<img src="newimg/slides.png" width="16" height="16" /> <a href="xx.pdf"></a> 
+    </div>            	         
+
+    </div> <!-- end flexwrapper -->
+    </div></article>
+    </li>
+    
+    <li><em>[INFOCOM'21]</em> LoFi: Enabling 2.4GHz LoRa and WiFi Coexistence by Detecting Extremely Weak Signals
+    	
+      <article id="node-246493" class="node node-paper view-mode-schedule"><div class="required-fields group-text-wrapper field-group-html-element"><div class="flexwrapper"><div class="paperdetail">
+    <!-- the following two divs are necessary -->
+    <div class="required-fields group-schedule-accordion field-group-html-element">
+    <div class="field field-name-field-paper-description-long field-type-text-long field-label-hidden">
+    	      	
+    	  	    <p>Low-Power Wide Area Networks (LPWANs)
+emerges as attractive communication technologies to connect the
+Internet-of-Things. A new LoRa chip has been proposed to provide
+long range and low power support on 2.4GHz. Comparing
+with previous LoRa radios operating on sub-gigahertz, the new
+one can transmit LoRa packets faster without strict channel
+duty cycle limitations and have attracted many attentions. Prior
+studies have shown that LoRa packets may suffer from severe
+corruptions with WiFi interference. However, there are many
+limitations in existing approaches such as too much signal
+processing overhead on weak devices or low detection accuracy.
+In this paper, we propose a novel weak signal detection approach,
+LoFi, to enable the coexistence of LoRa and WiFi. LoFi utilizes a
+typical physical phenomenon Stochastic Resonance (SR) to boost
+weak signals with a specific frequency by adding appropriate
+white noise. Based on the detected spectrum occupancy of LoRa
+signals, LoFi reserves the spectrum for LoRa transmissions.
+We implement LoFi on USRP N210 and conduct extensive
+experiments to evaluate its performance. Results show that LoFi
+can enable the coexistence of LoRa and WiFi in 2.4GHz. The
+packet reception ratio of LoRa achieves 98% over an occupied
+20MHz WiFi channel, and the WiFi throughput loss is reduced
+by up to 13%.</p>
+            
+            
+    </div></div></div> <!-- paperdetail -->
+        
+    <div class="paperdetail">
+      <img src="newimg/newpdf.png" width="16" height="16" /> <a href="xx.pdf"></a> &nbsp;
+     	<img src="newimg/slides.png" width="16" height="16" /> <a href="xx.pdf"></a> 
+    </div>            	         
+
+    </div> <!-- end flexwrapper -->
+    </div></article>
+    </li>
+  
     <li><em>[MobiCom'20]</em> TinyLink 2.0: Integrating Device, Cloud, and Client Development for IoT Applications
     	
     <article id="node-246493" class="node node-paper view-mode-schedule"><div class="required-fields group-text-wrapper field-group-html-element"><div class="flexwrapper"><div class="paperdetail">
@@ -322,11 +412,11 @@ evaluation settings.</p>
     </li>
     
     
-    <li ><em>[IPSN'20]</em> SateLoc: a Virtual Fingerprinting Approach to Outdoor LoRa Localization using Satelite Images
+    <li ><em>[IPSN'20, TOSN]</em> SateLoc: a Virtual Fingerprinting Approach to Outdoor LoRa Localization using Satelite Images
 
     	
      
-    <article id="node-246493" class="node node-paper view-mode-schedule"><div class="required-fields group-text-wrapper field-group-html-element"><div class="flexwrapper"><div class="paperdetail">
+      <article id="node-246493" class="node node-paper view-mode-schedule"><div class="required-fields group-text-wrapper field-group-html-element"><div class="flexwrapper"><div class="paperdetail">
     <!-- the following two divs are necessary -->
     <div class="required-fields group-schedule-accordion field-group-html-element">
     <div class="field field-name-field-paper-description-long field-type-text-long field-label-hidden">
@@ -471,7 +561,7 @@ respectively, compared with the best state-of-the-art algorithms.</p>
   </div></article>
     </li>
     
-    <li><em>[MobiCom'17]</em> TinyLink: a Holistic System for Rapid Development of IoT Applications
+    <li><em>[MobiCom'17, TOSN]</em> TinyLink: a Holistic System for Rapid Development of IoT Applications
       <article id="node-246493" class="node node-paper view-mode-schedule"><div class="required-fields group-text-wrapper field-group-html-element"><div class="flexwrapper"><div class="paperdetail">
     <!-- the following two divs are necessary -->
     <div class="required-fields group-schedule-accordion field-group-html-element">
@@ -673,6 +763,8 @@ respectively, compared with the best state-of-the-art algorithms.</p>
   <h2>Current grants </h2>
   
   <ul>
+    <li>PI, IoT Network Architecture for Interoperating across Heterogeneous
+Wireless Protocols, NSFC Grant No. 62072396, 2021.01~2024.12.</li>
     <li>PI, Research on Key Techniques for Cloud-Edge Integrated Data Collection, sub-project under National Key R&amp;D Program of China, No. 2019YFB1600700, 2019.12~2022.11. </li>
     <li>PI, Low Power Wireless Technologies for the IoT,  Zhejiang Provincial Natural Science Foundation for Distinguished Young
     Scholars, No. LR19F020001, 2019.01~2022.12.</li>
@@ -695,9 +787,9 @@ respectively, compared with the best state-of-the-art algorithms.</p>
   <h1><a name="award"></a>Awards</h1>
   
   <ul>
-    <li>AZFT Mode Innovation Award, Alibaba-Zhejiang University Joint Institute of Frontier Technologies, 2020. </li>
+    <li>Second Class in  Self-made Equipment of National Universities, 2021. </li>
+    <li>Outstanding Achievement Award, Zhejiang Computer Federation, 2020. </li>
     <li>Outstanding Service Award, Zhejiang Computer Federation, 2019. </li>
-    <li>Second Prize of &quot;Intel&quot; National AI Innovation Competition, 2019.</li>
     <li>Zhejiang NSF Distinguished Young
     Scholar, 2019.</li>
     <li>CCF-Tencent Riho-Bird  Excellent Patent Award, 2017.</li>
@@ -716,6 +808,7 @@ respectively, compared with the best state-of-the-art algorithms.</p>
   </ul>
   <h1><a name="talk"></a>Invited Talks</h1>
     <ul>
+      <li>“Low Code Development for IoT”, Computer Architecture Forum, Computer Conference of Jiangsu Province, Xuzhou, June 27, 2021. </li>
       <li>&quot;Taming the Challenges in the IoT 2.0 era&quot; (物联网2.0时代的挑战和机遇), Nanjing University, Dec. 8, 2019. </li>
       <li>&ldquo;From Ideas to Prototypes: Rapid Development of IoT Applications&rdquo; (<a href="misc/tinylink.pdf">从创新到原型: 物联网应用快速开发</a>), Aliyun Yunqi Conference (<a href="https://yunqi.aliyun.com/2018/shenzhen/meeting?spm=a2c4e.11165380.1004849.2.3cbb7809Wi72TP#329-06">阿里云云栖大会</a>),  Shenzhen, March 29, 2018. </li>
       <li>&ldquo;From Ideas to Prototypes: Rapid Development of IoT Applications&rdquo;, IoT Scientist Forum, Hangzhou, Nov. 27, 2017. </li>
